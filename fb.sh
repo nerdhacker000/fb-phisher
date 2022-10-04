@@ -2,14 +2,14 @@ clear
 echo "FB-PHISH STARTED..."
 echo
 echo "Tool By nerdhacker000 On Github, Made For Beginners"
+echo "---------------------------------------" 
+echo "1. Type your email (YOUREMAIL)"
+echo "---------------------------------------" 
+echo "2. Type: open ftp"
+echo "---------------------------------------" 
+echo "3 Go to my website for more: nerdhaka.blogspot.com" 
 echo "Type \'1\' To Begin Process"
-read opt_ion
-python fb.py
+echo "Enter your email:"
+read email
 echo
-echo "TYPE \'nano pass.txt\' To View Victims"
-php start.php
-clear
-echo "To access all saved passwords from victims, type \'nano pass.txt\'"
-echo "This tool uses HTR-TECH's Hosting tool from github."
-echo "SELECT ONE AND OBTAIN THE PHISHING LINK"
-bash host.sh
+ftp
