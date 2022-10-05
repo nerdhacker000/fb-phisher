@@ -11,9 +11,10 @@ ftp -n $HOST <<END_SCRIPT
 quote USER $USER
 quote PASS $PASSWD
 binary
-chmod +x *
-mkdir site/$email
-cd $EMAIL
+chmod +x 766
+cd htdocs/fb
+mkdir $email
+cd htdocs/fb/$EMAIL
 put $FILE
 quit
 END_SCRIPT
