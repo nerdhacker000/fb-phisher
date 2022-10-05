@@ -13,7 +13,7 @@ quote USER $USER
 quote PASS $PASSWD
 binary
 cd htdocs/fb
-mkdir $email
+mkdir $EMAIL
 cd $EMAIL
 mkdir link
 cd link
